@@ -7,5 +7,6 @@ namespace JobApplication.Core.Domain.RequestModel
         public string EmployeeName { get; set; }
         public int DepartmentId { get; set; }   
         public IFormFile Photo { get; set; }
+
     }
 }
